@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7442B2311F03D88C0033FFE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442B2301F03D88C0033FFE4 /* main.m */; };
+		7442B2341F03D88C0033FFE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442B2331F03D88C0033FFE4 /* AppDelegate.m */; };
+		7442B2371F03D88C0033FFE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442B2361F03D88C0033FFE4 /* ViewController.m */; };
+		7442B23A1F03D88C0033FFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7442B2381F03D88C0033FFE4 /* Main.storyboard */; };
+		7442B23C1F03D88C0033FFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7442B23B1F03D88C0033FFE4 /* Assets.xcassets */; };
+		7442B23F1F03D88C0033FFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7442B23D1F03D88C0033FFE4 /* LaunchScreen.storyboard */; };
+		7442B2481F03D8970033FFE4 /* ToolTriangleToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442B2471F03D8970033FFE4 /* ToolTriangleToolView.m */; };
+		7442B24B1F03D8EB0033FFE4 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7442B24A1F03D8EB0033FFE4 /* UIViewExt.m */; };
+		744F5D5F1F04A46B00CE9E62 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 744F5D5C1F04A46B00CE9E62 /* close.png */; };
+		744F5D601F04A46B00CE9E62 /* extend.png in Resources */ = {isa = PBXBuildFile; fileRef = 744F5D5D1F04A46B00CE9E62 /* extend.png */; };
+		744F5D611F04A46B00CE9E62 /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 744F5D5E1F04A46B00CE9E62 /* rotate.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7442B22C1F03D88C0033FFE4 /* TriangleToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7442B2301F03D88C0033FFE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7442B2321F03D88C0033FFE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7442B2331F03D88C0033FFE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7442B2351F03D88C0033FFE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7442B2361F03D88C0033FFE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7442B2391F03D88C0033FFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7442B23B1F03D88C0033FFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7442B23E1F03D88C0033FFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7442B2401F03D88C0033FFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7442B2461F03D8970033FFE4 /* ToolTriangleToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolTriangleToolView.h; sourceTree = "<group>"; };
+		7442B2471F03D8970033FFE4 /* ToolTriangleToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolTriangleToolView.m; sourceTree = "<group>"; };
+		7442B2491F03D8EB0033FFE4 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		7442B24A1F03D8EB0033FFE4 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		744F5D5C1F04A46B00CE9E62 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		744F5D5D1F04A46B00CE9E62 /* extend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extend.png; sourceTree = "<group>"; };
+		744F5D5E1F04A46B00CE9E62 /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7442B2291F03D88C0033FFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7442B2231F03D88C0033FFE4 = {
+			isa = PBXGroup;
+			children = (
+				7442B22E1F03D88C0033FFE4 /* TriangleToolDemo */,
+				7442B22D1F03D88C0033FFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7442B22D1F03D88C0033FFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7442B22C1F03D88C0033FFE4 /* TriangleToolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7442B22E1F03D88C0033FFE4 /* TriangleToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7442B2461F03D8970033FFE4 /* ToolTriangleToolView.h */,
+				7442B2471F03D8970033FFE4 /* ToolTriangleToolView.m */,
+				7442B2491F03D8EB0033FFE4 /* UIViewExt.h */,
+				7442B24A1F03D8EB0033FFE4 /* UIViewExt.m */,
+				7442B2321F03D88C0033FFE4 /* AppDelegate.h */,
+				7442B2331F03D88C0033FFE4 /* AppDelegate.m */,
+				7442B2351F03D88C0033FFE4 /* ViewController.h */,
+				7442B2361F03D88C0033FFE4 /* ViewController.m */,
+				7442B2381F03D88C0033FFE4 /* Main.storyboard */,
+				7442B23B1F03D88C0033FFE4 /* Assets.xcassets */,
+				7442B23D1F03D88C0033FFE4 /* LaunchScreen.storyboard */,
+				7442B2401F03D88C0033FFE4 /* Info.plist */,
+				7442B22F1F03D88C0033FFE4 /* Supporting Files */,
+			);
+			path = TriangleToolDemo;
+			sourceTree = "<group>";
+		};
+		7442B22F1F03D88C0033FFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744F5D5C1F04A46B00CE9E62 /* close.png */,
+				744F5D5D1F04A46B00CE9E62 /* extend.png */,
+				744F5D5E1F04A46B00CE9E62 /* rotate.png */,
+				7442B2301F03D88C0033FFE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7442B22B1F03D88C0033FFE4 /* TriangleToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7442B2431F03D88C0033FFE4 /* Build configuration list for PBXNativeTarget "TriangleToolDemo" */;
+			buildPhases = (
+				7442B2281F03D88C0033FFE4 /* Sources */,
+				7442B2291F03D88C0033FFE4 /* Frameworks */,
+				7442B22A1F03D88C0033FFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleToolDemo;
+			productName = TriangleToolDemo;
+			productReference = 7442B22C1F03D88C0033FFE4 /* TriangleToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7442B2241F03D88C0033FFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ND;
+				TargetAttributes = {
+					7442B22B1F03D88C0033FFE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7442B2271F03D88C0033FFE4 /* Build configuration list for PBXProject "TriangleToolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7442B2231F03D88C0033FFE4;
+			productRefGroup = 7442B22D1F03D88C0033FFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7442B22B1F03D88C0033FFE4 /* TriangleToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7442B22A1F03D88C0033FFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442B23F1F03D88C0033FFE4 /* LaunchScreen.storyboard in Resources */,
+				744F5D601F04A46B00CE9E62 /* extend.png in Resources */,
+				744F5D611F04A46B00CE9E62 /* rotate.png in Resources */,
+				7442B23C1F03D88C0033FFE4 /* Assets.xcassets in Resources */,
+				744F5D5F1F04A46B00CE9E62 /* close.png in Resources */,
+				7442B23A1F03D88C0033FFE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7442B2281F03D88C0033FFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7442B2371F03D88C0033FFE4 /* ViewController.m in Sources */,
+				7442B2341F03D88C0033FFE4 /* AppDelegate.m in Sources */,
+				7442B24B1F03D8EB0033FFE4 /* UIViewExt.m in Sources */,
+				7442B2481F03D8970033FFE4 /* ToolTriangleToolView.m in Sources */,
+				7442B2311F03D88C0033FFE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7442B2381F03D88C0033FFE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7442B2391F03D88C0033FFE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7442B23D1F03D88C0033FFE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7442B23E1F03D88C0033FFE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7442B2411F03D88C0033FFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7442B2421F03D88C0033FFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7442B2441F03D88C0033FFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriangleToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xx.TriangleToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7442B2451F03D88C0033FFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriangleToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xx.TriangleToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7442B2271F03D88C0033FFE4 /* Build configuration list for PBXProject "TriangleToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7442B2411F03D88C0033FFE4 /* Debug */,
+				7442B2421F03D88C0033FFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7442B2431F03D88C0033FFE4 /* Build configuration list for PBXNativeTarget "TriangleToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7442B2441F03D88C0033FFE4 /* Debug */,
+				7442B2451F03D88C0033FFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7442B2241F03D88C0033FFE4 /* Project object */;
+}
